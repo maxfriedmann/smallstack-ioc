@@ -1,0 +1,13 @@
+language: node_js
+dist: trusty
+node_js: "6"
+install:
+    - npm install
+script:
+    - npm test
+deploy:
+  provider: npm
+  email: "max@smallstack.io"
+  api_key: $NPM_API_KEY
+  on:
+    tags: true
