@@ -8,7 +8,7 @@
 	},
 	"files": [
 		"src/ioc.ts",
-		"test/test.ts"
+		"test/test.ts",
 		"src/ioc.decorator.ts"
 	]
 }
