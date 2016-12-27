@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"module": "commonjs",
+		"target": "es5",
+		"noImplicitAny": true
+	},
+	"files": [
+		"src/ioc.ts",
+		"test/test.ts"
+	]
+}

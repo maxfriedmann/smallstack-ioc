@@ -1,0 +1,22 @@
+{
+  "name": "smallstack-ioc",
+  "version": "0.1.0",
+  "description": "super simple ioc, written in typescript",
+  "main": "src/ioc.js",
+  "typings": "src/ioc.d.ts",
+  "scripts": {
+    "postinstall": "tsc",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "simple",
+    "ioc",
+    "typescript",
+    "smallstack"
+  ],
+  "author": "Maximilian Friedmann",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "2.1.4"
+  }
+}
