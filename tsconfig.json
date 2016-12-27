@@ -3,10 +3,12 @@
 		"declaration": true,
 		"module": "commonjs",
 		"target": "es5",
-		"noImplicitAny": true
+		"noImplicitAny": false,
+		"experimentalDecorators": true
 	},
 	"files": [
 		"src/ioc.ts",
 		"test/test.ts"
+		"src/ioc.decorator.ts"
 	]
 }

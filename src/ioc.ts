@@ -6,6 +6,9 @@
 export class IOC {
     private container: { [id: string]: Object } = {};
 
+    // if more than one container will be created, this is useful for comparing or checking which one is being used
+    private _id: number = Math.random();
+
     private static _instance: IOC;
 
     /**

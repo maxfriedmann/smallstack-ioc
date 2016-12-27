@@ -2,8 +2,10 @@
   "name": "smallstack-ioc",
   "version": "0.1.0",
   "description": "super simple ioc, written in typescript",
-  "main": "src/ioc.js",
-  "typings": "src/ioc.d.ts",
+  "main": "src/main.js",
+  "typescript": {
+    "definition": "src/main.d.ts"
+  },
   "scripts": {
     "postinstall": "tsc",
     "test": "node test/test.js"
